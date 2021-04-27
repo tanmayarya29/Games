@@ -1,17 +1,14 @@
 ﻿using UnityEngine.Networking;
 using UnityEngine;
 
-public class PlayerShoot : NetworkBehaviour
+public class PlayerShoot : MonoBehaviour
 {
-    public PlayerWeapon weapon;
     [SerializeField]
     private Camera cam;
+    public float damage=30;
 
     public Animator anim;
     //public targetEnemy targetEnemy;
-
-    [SerializeField]
-    private LayerMask mask;
 
     public ParticleSystem muzzleFlash;
     public GameObject impactFlash;
@@ -47,7 +44,7 @@ public class PlayerShoot : NetworkBehaviour
     {
         muzzleFlash.Play();
         RaycastHit hit;
-        if (Physics.Raycast(cam.transform.position, cam.transform.forward, out hit, weapon.range, mask))
+        if (Physics.Raycast(cam.transform.position, cam.transform.forward, out hit))
         {
             //we hit
             Debug.Log(hit.collider.tag);
@@ -55,7 +52,7 @@ public class PlayerShoot : NetworkBehaviour
             targetEnemy te = hit.transform.GetComponent<targetEnemy>();
             if (te != null)
             {
-                te.takeDmg(PlayerWeapon.damage);
+                te.takeDmg(damage);
                 hit.rigidbody.AddForce(-hit.normal* impactForce);
             }
 

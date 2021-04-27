@@ -64,23 +64,25 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\_Scripts\EndTrigger.cs" />
-    <Compile Include="Assets\_Scripts\FHPlayer.cs" />
-    <Compile Include="Assets\_Scripts\GameManager.cs" />
+    <Compile Include="Assets\_Scripts\Bullets.cs" />
+    <Compile Include="Assets\_Scripts\endtrgr.cs" />
+    <Compile Include="Assets\_Scripts\endtrgr2.cs" />
+    <Compile Include="Assets\_Scripts\EnemyShoot.cs" />
     <Compile Include="Assets\_Scripts\hsd.cs" />
-    <Compile Include="Assets\_Scripts\ObsGen.cs" />
+    <Compile Include="Assets\_Scripts\MouseLook.cs" />
     <Compile Include="Assets\_Scripts\pauseResume.cs" />
-    <Compile Include="Assets\_Scripts\PlayerController.cs" />
-    <Compile Include="Assets\_Scripts\PlayerMotor.cs" />
-    <Compile Include="Assets\_Scripts\PlayerSetup.cs" />
+    <Compile Include="Assets\_Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\_Scripts\PlayerShoot.cs" />
-    <Compile Include="Assets\_Scripts\PlayerWeapon.cs" />
     <Compile Include="Assets\_Scripts\quit.cs" />
     <Compile Include="Assets\_Scripts\Restart.cs" />
     <Compile Include="Assets\_Scripts\Score.cs" />
+    <Compile Include="Assets\_Scripts\sliderz.cs" />
+    <Compile Include="Assets\_Scripts\sliderz1.cs" />
     <Compile Include="Assets\_Scripts\strtgame.cs" />
     <Compile Include="Assets\_Scripts\targetEnemy.cs" />
+    <Compile Include="Assets\_Scripts\TargetPlayer.cs" />
     <Compile Include="Assets\_Scripts\timer.cs" />
+    <Compile Include="Assets\_Scripts\wayptController.cs" />
     <Compile Include="Assets\SampleScenes\Menu\Scripts\MenuSceneLoader.cs" />
     <Compile Include="Assets\SampleScenes\Menu\Scripts\PauseMenu.cs" />
     <Compile Include="Assets\SampleScenes\Menu\Scripts\SceneAndURLLoader.cs" />

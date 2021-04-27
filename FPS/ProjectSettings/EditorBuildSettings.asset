@@ -8,10 +8,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Start.unity
     guid: b3e887f710f55b14a9d4e940fd53ba99
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Tutorial.unity
     guid: 41b06879a6c6fcd478a71a933a8594eb
   - enabled: 1
     path: Assets/Scenes/End.unity
     guid: ebd6a0ff7a3eba844a07745aaf4135d0
+  - enabled: 1
+    path: Assets/Scenes/lvl1.unity
+    guid: d428fc3b7f353824093d98312db57d97
+  - enabled: 1
+    path: Assets/Scenes/terr.unity
+    guid: c193d6ca59f2e0c43bdab39ce6e02945
   m_configObjects: {}

@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 692386680881496541}
   - component: {fileID: 692386680881496530}
   - component: {fileID: 692386680881496531}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Stairs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2621,7 +2621,7 @@ GameObject:
   - component: {fileID: 692386681645812148}
   - component: {fileID: 692386681645812149}
   - component: {fileID: 692386681645812138}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: house
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7122,9 +7122,9 @@ GameObject:
   m_Component:
   - component: {fileID: 692386682022422698}
   - component: {fileID: 4002850120377041890}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: House1
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7162,7 +7162,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 126
-  m_CollisionDetection: 0
+  m_CollisionDetection: 2
 --- !u!1 &812937368177235442
 GameObject:
   m_ObjectHideFlags: 0
@@ -7176,7 +7176,7 @@ GameObject:
   - component: {fileID: 2954405065546612984}
   - component: {fileID: 9139888346833182848}
   - component: {fileID: 2283157445931005460}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: LightBlue
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7307,7 +7307,7 @@ GameObject:
   - component: {fileID: 3258826089296433055}
   - component: {fileID: 8203892120863003618}
   - component: {fileID: 1665146372410575430}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: LightYellow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
